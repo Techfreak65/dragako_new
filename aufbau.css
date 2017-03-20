@@ -7,13 +7,12 @@
 	body {
 		font: 80% Arial, Helvetica, sans-serif;
 		line-height: 1.5;
+		color: black;
 		background:url(bilder/Hintergrund_schraeg_2_2.png);
 		margin: 0em 5em 0 5em;
 		/* height: 80%;
 		overflow: auto; */
 	}
-	
-	/* Thoimas 	Komment */
 	
 	a:hover{
 		background-color: black;
