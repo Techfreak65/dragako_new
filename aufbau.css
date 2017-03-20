@@ -53,6 +53,10 @@
 		padding: 0em;
 	}
 
+	pics_dragako {
+		padding: 0.5em;	
+	}
+	
 	td {
         border:1px solid;
         overflow:hidden;
@@ -82,23 +86,27 @@
 		font-size:strong;
 	}
 	
-	#Table_dragako {
+	background_alpha {
+		background: url(bilder/background_text_repeatXY.png);	
+	}
+	
+	#dragako {	
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
 	
-	#Table_emerald {
+	#emerald {
 		background-color: #0c481e; color: rgba(242,242,242,0.5)
 	}
 	
-	#Table_opal {
+	#opal {
 		background-color: #ae5013; color: rgba(242,242,242,0.5);
 	}
 		
-	#Table_pearl {
+	#pearl {
 		background-color: #cabc8f; color: rgba(42,42,42,0.7);
 	}
 	
-	#Table_ruby {
+	#ruby {
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
 	
