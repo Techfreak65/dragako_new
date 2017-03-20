@@ -98,24 +98,35 @@
 	}
 	
 	
+	#wrapper {
+	background-color: lightblue;
+	width: 80em;
+	height: 25em;
+	}
+	
+	
 	#eins {
-	margin:0;
-	padding: 0;
-	height: 4em;
+	font-size:1em;
 	text-align: center;
+	margin: 0em;
+	padding: 0em 0em 0em 1em;
+	height: 5em;
 	background-color: yellow;
-	width: 14em;
-	float:left;
+	width: 16em;
+	float: left;
 	}
 
 	#zwei {
-	margin:0;
-	padding: 0;
-	height: 4em;
-	text-align: lefft;
+	font-size:1em;
+	margin: 0em ;
+	padding: 0em 0em 0em 1em;
+	height: 5em;
 	background-color: green;
-	margin-left: 14em;
+	margin-left: 17em;
 	}
+	
+	
+	
 	
 	#dragako {	
 		border-radius:20px;
