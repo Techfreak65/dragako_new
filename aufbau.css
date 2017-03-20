@@ -52,13 +52,13 @@
 		margin: 0em;
 		padding: 0em;
 	}
-
+  
 	td {
-        border:1px solid;
-        overflow:hidden;
-        vertical-align:top;
-      }
-
+    border:1px solid;
+    overflow:hidden;
+    vertical-align:top;
+  }
+  
 	h1 {
 		text-align: left;
 		font-size: 2em;
@@ -72,14 +72,23 @@
 		text-align: justify;
 		padding: 0em 7em 0em 4.5em;
 	}	
-	
+
+  /*Anfasser für die Punktetabellen (h4,h5,h6)*/
+
+  h4{
+		text-align:center;
+		font-size: 1.5em;
+  }
+
 	h5 {
 		text-align: center;
 		font-size: 1em;
+		font-weight: normal;
 	}
-	
-	strong{
-		font-size:strong;
+
+	h6 {
+		font-weight: normal;
+		font-size:1em;
 	}
 	
 	#Table_dragako {
@@ -113,7 +122,6 @@
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
-		
 	}
 	
 	#Table_punktetabelle_gemein{
@@ -121,12 +129,13 @@
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
-		
 	}
+  
 	#Überschrift01{
 		font-size:3em;
 		color: white;
 	}
+  
 	#Überschrift02{
 		font-size:3em;
 		color: white;
