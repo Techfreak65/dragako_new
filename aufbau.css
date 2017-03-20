@@ -1,0 +1,92 @@
+﻿<style>		
+	html, body {
+		font: 100% Arial, Helvetica, sans-serif;
+	}
+	
+	body {
+		background:url(bilder/Hintergrund_schraeg_2_2.png);
+		margin: 0em 5em 0 5em;
+		/* height: 80%;
+		overflow: auto; */
+	}
+	
+	a:hover{
+		background-color: black;
+	}
+	
+	
+	/* # steht für ID-Bereich */
+
+	#kopfbereich {
+		background:url(bilder/Dragon_small.png) repeat-x;
+		height:150px;	
+		border-radius:10px;
+	}
+				 
+	#kopfbereich p {
+		font-family:"Lucida Handwriting";
+		color:#9F9F9F;
+		text-align:right;
+		font-size:2.5em;
+	}			 
+				 
+	#Table_steuerung {
+		background-color: #383838;
+		border-radius:20px;
+		font-size:1em;	
+	}
+
+	#schatten {
+		background:url(bilder/Schatten.png) repeat-x;
+		height:12px;
+	}
+
+	table {
+		/* border-bottom-left-radius: 2em; */
+		border-radius:20px;
+		text-align: justify;
+		padding: 0em 2em 0.7em 2em;	
+	}
+
+	table h3{
+		font-size: 1.2em;
+	}		
+	
+	#Table_dragako {
+		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
+	}
+	
+	#Table_emerald {
+		background-color: #0c481e; color: rgba(242,242,242,0.5)
+	}
+	
+	#Table_opal {
+		background-color: #ae5013; color: rgba(242,242,242,0.5);
+	}
+		
+	#Table_pearl {
+		background-color: #cabc8f; color: rgba(42,42,42,0.7);
+	}
+	
+	#Table_ruby {
+		background-color: #760d10; color: rgba(242,242,242,0.7)
+	}
+	
+	#links {
+		text-align:right;
+		background-color:#ceb98e;
+		padding: 0 1em 0 1em;	
+	}
+	
+	#Table_punktetabelle_indivuell {
+		font-size:1em;
+		background-color:purple;
+		padding:1.2em 0 0 0;
+	}
+	
+	#Table_punktetabelle_gemein{
+		font-size:1em;
+		background-color:purple;
+		padding:1.2em 0 0 0;
+	}
+  </style>
