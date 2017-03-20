@@ -92,6 +92,7 @@
 	}
 	
 	#Table_dragako {
+		background: url(bilder/background_text_repeatXY.png) repeat;
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
 	
