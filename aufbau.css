@@ -10,14 +10,13 @@
 		color: black;
 		background:url(bilder/Hintergrund_schraeg_2_2.png);
 		margin: 0em 5em 0 5em;
-		/* height: 80%;
-		overflow: auto; */
+		padding: 0;
 	}
 	
 	a:hover{
-		background-color: black;
+		background-color: grey;
+		background-color: grey;
 	}
-	
 	
 	/* # steht für ID-Bereich */
 
@@ -32,6 +31,7 @@
 		color:#9F9F9F;
 		text-align:right;
 		font-size:2.5em;
+		padding: 0em 0.5em;
 	}			 
 				 
 	#Table_steuerung {
@@ -47,25 +47,38 @@
 
 	table {
 		/* border-bottom-left-radius: 2em; */
+		border: "5";
 		border-radius:20px;
-		text-align: justify;
-		padding: 0em 2em 0.7em 2em;	
-		width:100%;
+		margin: 0em;
+		padding: 0em;
 	}
+
 	td {
         border:1px solid;
         overflow:hidden;
         vertical-align:top;
       }
 
-	table h3{
-		font-size: 1.2em;
-	}		
-	table h5{
-		text-align:center;
+	h1 {
+		text-align: left;
+		font-size: 2em;
+		padding: 0em 0em 0em 3.25em;
+	}
+	
+	h3 {
+		font-weight: normal;
+		letter-spacing: 1px;
+		font-size: 1.3em;
+		text-align: justify;
+		padding: 0em 7em 0em 4.5em;
+	}	
+	
+	h5 {
+		text-align: center;
 		font-size: 1em;
 	}
-	table strong{
+	
+	strong{
 		font-size:strong;
 	}
 	
@@ -119,7 +132,6 @@
 		color: white;
 	}
 	
-
 	#login{
 		background-color:purple;
 		font-size:1em;
