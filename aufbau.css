@@ -105,10 +105,6 @@
 		padding: 0em;
 		width:100%;
 	}
-
-	pics_dragako {
-		padding: 0.5em;	
-	}
 	
 	td {
 		border:1px solid;
@@ -125,6 +121,7 @@
 	h3 {
 		font-weight: normal;
 		letter-spacing: 1px;
+		line-height: 1.3em;
 		font-size: 1.3em;
 		text-align: justify;
 		padding: 0em 7em 0em 4.5em;
@@ -148,27 +145,52 @@
 		font-size:1em;
 	}
 	
+	
+	#eins {
+	margin:0;
+	padding: 0;
+	height: 4em;
+	text-align: center;
+	background-color: yellow;
+	width: 14em;
+	float:left;
+	}
+
+	#zwei {
+	margin:0;
+	padding: 0;
+	height: 4em;
+	text-align: lefft;
+	background-color: green;
+	margin-left: 14em;
+	}
+	
 	#dragako {	
+		border-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
 	
 	#emerald {
+		border-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		background-color: #0c481e; color: rgba(242,242,242,0.5)
 	}
 	
 	#opal {
+		border-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		background-color: #ae5013; color: rgba(242,242,242,0.5);
 	}
 		
 	#pearl {
+		border-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		background-color: #cabc8f; color: rgba(42,42,42,0.7);
 	}
 	
 	#ruby {
+		border-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
