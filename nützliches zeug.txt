@@ -1,9 +1,0 @@
-label for="männl">männlich: </label>
-				<input type="radio" name="geschlecht" id="männl" value="männl">
-				<br>
-				<label for="weibl">weiblich: </label>
-				<input type="radio" name="geschlecht" id="weibl" value="weibl">
-				<br>
-				<label for="alter">über 18:</label>
-				<input type="checkbox" id="alter">
-				<br>
