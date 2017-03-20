@@ -85,7 +85,6 @@
   /*Anfasser für die Punktetabellen (h4,h5,h6)*/
 
   h4{
-
 		text-align:center;
 		font-size: 1.5em;
 	}
@@ -100,7 +99,7 @@
 		font-weight: normal;
 		font-size:1em;
 	}
-	
+
 	background_alpha {
 		background: url(bilder/background_text_repeatXY.png);	
 	}
