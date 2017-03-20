@@ -51,6 +51,13 @@
 	table h3{
 		font-size: 1.2em;
 	}		
+	table h5{
+		text-align:center;
+		font-size: 1em;
+	}
+	table strong{
+		font-size:strong;
+	}
 	
 	#Table_dragako {
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
@@ -80,13 +87,18 @@
 	
 	#Table_punktetabelle_indivuell {
 		font-size:1em;
-		background-color:purple;
+		background-color: #b2bfd6; 
+		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
+		
 	}
 	
 	#Table_punktetabelle_gemein{
 		font-size:1em;
-		background-color:purple;
+		background-color: #b2bfd6; 
+		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
+		
 	}
+	
   </style>
