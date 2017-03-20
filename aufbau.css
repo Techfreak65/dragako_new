@@ -13,10 +13,14 @@
 		padding: 0;
 	}
 	
-	a:hover{
-		background-color: grey;
-		background-color: grey;
+	#abstand{
+		padding-right:2em;
 	}
+	
+	/* a:hover{
+		background-color: grey;
+		background-color: grey;
+	} */
 	
 	/* # steht für ID-Bereich */
 
@@ -37,11 +41,55 @@
 	#steuerung {
 		background-color: #383838;
 		border-radius:20px;
-		font-size:1em;
-		padding: 0px;
-		margin: 0px;
-		display: inline;		
+		padding: 0em 0em 0em 2em;
+		margin: 0em 2em 0em 0em;
+		line-height:1.5em;
+		/*display: inline;*/		
 	}
+	
+	/* #steuerung a:link{
+        background-color: #383838;
+        padding: 2px 5px 2px 5px;
+        font-size: 2em;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+	} */
+	
+	/* #steuerung a:hover{
+		border: 20px solid #383838; 
+        background-color: #383838;
+        padding: 2px 5px 2px 5px; 
+        color: #000; 
+	} */
+	
+	#steuerung2{
+		text-align:left;               /* Textausrichtung     */
+		margin-top:10px;               /* Außenabstand oben   */
+		margin-bottom:10px;            /* Außenabstand unten  */
+		margin-left:20px;              /* Außenabstand links  */
+		margin-right:15px;             /* Außenabstand rechts */
+	}
+	
+	#steuerung2 ul {
+		list-style:none;               /* keine Aufzählungspunkte */
+	}
+	#steuerung2 li { 
+		float:left;                     /* Anordnung links   */
+		margin-left:15px;               /* Außenabstand links */
+		width:90px;                     /* Breite des Links  */
+ 
+		background-color:silver;        /* Hintergrundfarbe  */
+		border-top:1px black solid;     /* Rahmen Auflistungspunkt oben */
+		border-left:25px orange solid;  /* Rahmen Auflistungspunkt links */
+		border-bottom:1px red solid;    /* Rahmen unten  */
+		border-right:2px blue solid;    /* Rahmen rechts  */
+		margin-top:10px;                /* Außenabstand oben  */
+		padding-top:8px;                /* Innenabstand oben  */
+		padding-bottom:8px;             /* Innenabstand unten */
+		padding-left:8px;               /* Innenabstand links */
+		padding-right:8px;              /* Innenabstand rechts */
+	} 
 
 	#schatten {
 		background:url(bilder/Schatten.png) repeat-x;
@@ -53,9 +101,9 @@
 		border: "5";
 		border-radius:20px;
 		text-align:justify;
-		text-bottom:0em;
 		margin: 0em;
 		padding: 0em;
+		width:100%;
 	}
 
 	pics_dragako {
