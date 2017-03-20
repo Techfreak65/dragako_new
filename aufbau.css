@@ -15,7 +15,6 @@
 	
 	a:hover{
 		background-color: grey;
-		background-color: grey;
 	}
 	
 	/* # steht für ID-Bereich */
@@ -53,7 +52,6 @@
 		border: "5";
 		border-radius:20px;
 		text-align:justify;
-		text-bottom:0em;
 		margin: 0em;
 		padding: 0em;
 	}
@@ -84,7 +82,7 @@
 
   /*Anfasser für die Punktetabellen (h4,h5,h6)*/
 
-  h4{
+	h4{
 		text-align:center;
 		font-size: 1.5em;
 	}
@@ -99,28 +97,29 @@
 		font-weight: normal;
 		font-size:1em;
 	}
-
-	background_alpha {
-		background: url(bilder/background_text_repeatXY.png);	
-	}
 	
 	#dragako {	
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
 	
 	#emerald {
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #0c481e; color: rgba(242,242,242,0.5)
 	}
 	
 	#opal {
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #ae5013; color: rgba(242,242,242,0.5);
 	}
 		
 	#pearl {
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #cabc8f; color: rgba(42,42,42,0.7);
 	}
 	
 	#ruby {
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
 	
