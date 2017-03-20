@@ -1,19 +1,22 @@
 ﻿<style>		
 	html, body {
-		font: 100% Arial, Helvetica, sans-serif;
+		padding: 0;
+		margin: 0;
 	}
 	
 	body {
+		font: 80% Arial, Helvetica, sans-serif;
+		line-height: 1.5;
+		color: black;
 		background:url(bilder/Hintergrund_schraeg_2_2.png);
 		margin: 0em 5em 0 5em;
-		/* height: 80%;
-		overflow: auto; */
+		padding: 0;
 	}
 	
 	a:hover{
-		background-color: black;
+		background-color: grey;
+		background-color: grey;
 	}
-	
 	
 	/* # steht für ID-Bereich */
 
@@ -28,6 +31,7 @@
 		color:#9F9F9F;
 		text-align:right;
 		font-size:2.5em;
+		padding: 0em 0.5em;
 	}			 
 				 
 	#Table_steuerung {
@@ -43,14 +47,49 @@
 
 	table {
 		/* border-bottom-left-radius: 2em; */
+		border: "5";
 		border-radius:20px;
+		margin: 0em;
+		padding: 0em;
+	}
+  
+	td {
+    border:1px solid;
+    overflow:hidden;
+    vertical-align:top;
+  }
+  
+	h1 {
+		text-align: left;
+		font-size: 2em;
+		padding: 0em 0em 0em 3.25em;
+	}
+	
+	h3 {
+		font-weight: normal;
+		letter-spacing: 1px;
+		font-size: 1.3em;
 		text-align: justify;
-		padding: 0em 2em 0.7em 2em;	
+		padding: 0em 7em 0em 4.5em;
+	}	
+
+  /*Anfasser für die Punktetabellen (h4,h5,h6)*/
+
+  h4{
+		text-align:center;
+		font-size: 1.5em;
+  }
+
+	h5 {
+		text-align: center;
+		font-size: 1em;
+		font-weight: normal;
 	}
 
-	table h3{
-		font-size: 1.2em;
-	}		
+	h6 {
+		font-weight: normal;
+		font-size:1em;
+	}
 	
 	#Table_dragako {
 		background: url(bilder/background_text_repeatXY.png) repeat;
@@ -81,14 +120,26 @@
 	
 	#Table_punktetabelle_indivuell {
 		font-size:1em;
-		background-color:purple;
+		background-color: #b2bfd6; 
+		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
 	}
 	
 	#Table_punktetabelle_gemein{
 		font-size:1em;
-		background-color:purple;
+		background-color: #b2bfd6; 
+		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
+	}
+  
+	#Überschrift01{
+		font-size:3em;
+		color: white;
+	}
+  
+	#Überschrift02{
+		font-size:3em;
+		color: white;
 	}
 	
 	#login{
@@ -111,4 +162,5 @@
 		text-align: right;
 		width: 10em;
 	}
+
   </style>
