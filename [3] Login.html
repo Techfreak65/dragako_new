@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dragako</title>	
+		<link href="aufbau.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="kopfbereich">
+			<p>DRAGAKO</p>
+		</div>
+		
+		<div id="schatten"></div>
+
+		<table id="Table_steuerung">
+			<!-- nobr verhindert Umbruch bei Verkleinerung der Seitenbreite -->
+			<!-- &nbsp fügt erzwungenes Leerzeichen ein -->
+			<tr>
+				<th style="width:150px"><a href="[1] Dragako.html">	   	<img src="bilder/dragako.png" 	width="30" height="30" alt="Dragako" /></a>&nbsp&nbsp</th>
+				<th style="width:150px"><a href="[2] Punkte.html">		<img src="bilder/punkte.png" 	width="30" height="30" alt="Dragako" /></a>&nbsp&nbsp</th>
+				<th style="width:150px"><a href="[3] Login.html">		<img src="bilder/punkte_alpha.png" 	width="50" height="50" alt="Punkte" /></a>&nbsp&nbsp</th>
+			</tr>
+		</table>
+		
+		<div id="login">
+			<form>
+				<label for="E-Mail">E-Mail: </label>
+				<input type="text" id="E-Mail" name="E-Mail">
+				<br>
+				<label for="Passwort">Passwort: </label>
+				<input type="text" id="Passwort" name="Passwort">
+				<br>
+				<label for="männl">männlich: </label>
+				<input type="radio" name="geschlecht" id="männl" value="männl">
+				<br>
+				<label for="weibl">weiblich: </label>
+				<input type="radio" name="geschlecht" id="weibl" value="weibl">
+				<br>
+				<label for="alter">über 18:</label>
+				<input type="checkbox" id="alter">
+				<br>
+				<button type="submit">Und ab damit!"</button>
+			</form>
+		</div> 
+		
+		
+	</body>

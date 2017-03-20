@@ -92,4 +92,25 @@
 		background-color:purple;
 		padding:1.2em 0 0 0;
 	}
+	
+	#login{
+		background-color:purple;
+		font-size:1em;
+		padding:1.2em 0 0 0;
+	}	
+	
+	form{
+		width: 20em;
+		margin-top: 2em;
+	}
+
+	input {
+		margin: 0 0 1.5em .5em;
+	}
+
+	label {
+		float: left;
+		text-align: right;
+		width: 10em;
+	}
   </style>
