@@ -98,29 +98,9 @@
 		font-weight: normal;
 		font-size:1em;
 	}
+
 	
-	.TestEins {
-			background-color: yellow;
-	}
-	
-	.TestEins headline {
-		background-color: grey;
-		text-align: left;
-		font-size: 2em;
-		padding: 0em 0em 0em 3.25em;
-	}
-	
-	.TestEins text {
-		background-color: lightblue;
-		font-weight: normal;
-		letter-spacing: 1px;
-		line-height: 1.3em;
-		font-size: 1.3em;
-		text-align: justify;
-		padding: 0em 7em 0em 4.5em;
-	}
-	
-	#wrapper {
+	/*#wrapper {
 	background-color: lightblue;
 	width: 80em;
 	height: 25em;
@@ -145,61 +125,37 @@
 	height: 5em;
 	background-color: green;
 	margin-left: 17em;
-	}
+	} */
 	
-	.bild_textbox {
+	section {
+		border-radius:20px;
 		margin: 0em;
 		padding: 0em;
 		border-top-left-radius:20px;
 		border-top-right-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
-	}
-	
-	.bild_textbox dragako {
-		background: url(bilder/dragako.png);
 		color: rgba(42,42,42,0.7);
-		background-color: #b2bfd6;
 	}
+
 	
-	.textbox {
-		margin: 0em;
-		padding: 0em;
-		border-radius:20px;
-		background: url(bilder/background_text_repeatXY.png);
-	}
 	
-	.textbox dragako {
+	.dragako {	
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
 	
-	
-	/* #dragako {	
-		border-radius:20px;
-		background: url(bilder/background_text_repeatXY.png);
-		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
-	} */
-	
-	#emerald {
-		border-radius:20px;
-		background: url(bilder/background_text_repeatXY.png);
+	.emerald {
 		background-color: #0c481e; color: rgba(242,242,242,0.5)
 	}
 	
-	#opal {
-		border-radius:20px;
-		background: url(bilder/background_text_repeatXY.png);
+	.opal {
 		background-color: #ae5013; color: rgba(242,242,242,0.5);
 	}
 		
-	#pearl {
-		border-radius:20px;
-		background: url(bilder/background_text_repeatXY.png);
+	.pearl {
 		background-color: #cabc8f; color: rgba(42,42,42,0.7);
 	}
 	
-	#ruby {
-		border-radius:20px;
-		background: url(bilder/background_text_repeatXY.png);
+	.ruby {
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
 	
