@@ -15,28 +15,17 @@
 	
 	.twitterbird {
 		margin-bottom: 10px;
-		width: 80px;
+		width: 60px;
 		height:60px;
 		display:block;
 		background:transparent url("bilder/dragako.png") center top no-repeat;
-		background-size: 80px 60px;
+		background-size: 60px 60px;
 	}
 
 	.twitterbird:hover {
 		background-image: url("bilder/dragako.png");
-		background-size: 80px 60px;
+		background-size: 60px 60px;
 	}
-	
-	a{
-		padding-right:10em;
-	}
-	
-	 a:hover{
-		background-color: grey;
-		border:20px;
-	} 
-
-	
 	
 	/* # steht für ID-Bereich */
 
