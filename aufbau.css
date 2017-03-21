@@ -16,7 +16,7 @@
 		background-color:black rgba(0,0,0,1);
 	}
 	
-	.twitterbird_dra{
+	/* .twitterbird_dra{
 		margin-bottom: 10px;
 		width: 60px;
 		height:60px;
@@ -41,9 +41,9 @@
 		display:block;
 		background:url("bilder/punkte_alpha.png") center top no-repeat rgba(0,0,0,1);
 		background-size: 60px 60px;
-	}
+	} */
 	
-	#ul li a{
+	/* #ul li a{
 		padding-right:5em;
 	}
 	
@@ -58,7 +58,7 @@
 	#ul li{
 		list-style:none;
 		float:left;
-	}	
+	} */	
 	
 	/* # steht für ID-Bereich */
 
