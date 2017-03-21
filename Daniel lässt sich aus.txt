@@ -1,0 +1,29 @@
+Ich habe gerade schon ein paar Anmerkungen:
+
+### Gebrauch eines Versionsverwaltungstools
+
+ - Der master Branch ist dazu da, eine funktionierende Fassung des Projekts zu beinhalten.
+   Diese Version läuft in der Regel flüssig und ohne Fehler (kann am Anfang nicht so sein).
+   Änderungen werden IN den master Branch gemerged und nicht anders herum.
+ 
+ - Unter dem Link https://github.com/Techfreak65/dragako_new/network könnt ihr euch die Verteilung der Branches ansehen.
+   Ihr solltet euch ein System schaffen.
+   
+ - Bei Commits sollte man immer eine Beschreibung wählen, die aussagt, was genau verändert wurde.
+   Wenn man es rückgängig machen will, erleichtert dies das Finden eines Fehlers.
+ 
+ 
+### Zur Website
+* Diese Anmerkungen sind im Moment noch relativ unwichtig, aber ihr könnt sie ja mal durchlesen.
+
+ - Wenn man auf Anmelden klickt, stehen Password und Benutzer im Klartext in der URL.
+ - Informiert euch bitte über Meta-Tags, speziell über "viewport".
+ 
+ 
+### Fragen, die ich habe / die ihr noch klären müsstet
+
+ - die Commit-Nachrichten lieber auf Deutsch oder auf Englisch?
+ - Wollt ihr vielleicht nicht doch mit Klassen bei CSS arbeiten? Würde ein paar Zeilen sparen.
+ - Wollt ihr mehrere CSS-Dateien verwenden? Z.B. für die darunterliegenden Seiten separate CSS.
+ - Sollen die Internetseiten wirklich so benannt sein? ([<zahl>] <name>)?
+ 
