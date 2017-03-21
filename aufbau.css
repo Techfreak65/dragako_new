@@ -12,10 +12,6 @@
 		padding: 0;
 	}
 	
-	#back{
-		background-color:black rgba(0,0,0,1);
-	}
-	
 	/* .twitterbird_dra{
 		margin-bottom: 10px;
 		width: 60px;
@@ -58,8 +54,37 @@
 	#ul li{
 		list-style:none;
 		float:left;
-	} */	
+	} */
+
+    #steuerung  {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+		background-color:grey;
+		border-radius:20px;
+		
+    }
+
+    #steuerung li {
+        padding: 0 0 0 4em;
+        margin: 0;
+		display: inline;
+
+    }
+
+    #steuerung li a:link {
+        padding: 1em 2em 1em 2em;
+        font-size: 1em;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #steuerung li a:hover {
+        color: white;
+    }
 	
+
 	/* # steht für ID-Bereich */
 
 	#kopfbereich {
