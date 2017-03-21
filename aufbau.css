@@ -27,10 +27,16 @@
 		background-size: 80px 60px;
 	}
 	
-	a:hover{
-		background-color: grey;
-		background-color: grey;
+	a{
+		padding-right:10em;
 	}
+	
+	 a:hover{
+		background-color: grey;
+		border:20px;
+	} 
+
+	
 	
 	/* # steht für ID-Bereich */
 
@@ -51,15 +57,9 @@
 	#steuerung {
 		background-color: #383838;
 		border-radius:20px;
-		font-size:1em;
-		padding: 0px;
-		margin: 0px;
-		display: inline;		
-	}
-
-	#schatten {
-		background:url(bilder/Schatten.png) repeat-x;
-		height:12px;
+		line-height:5;
+		text-align:center;
+		padding:0;
 	}
 
 	table {
@@ -67,13 +67,9 @@
 		border: "5";
 		border-radius:20px;
 		text-align:justify;
-		text-bottom:0em;
 		margin: 0em;
 		padding: 0em;
-	}
-
-	pics_dragako {
-		padding: 0.5em;	
+		width:100%;
 	}
 	
 	td {
@@ -91,6 +87,7 @@
 	h3 {
 		font-weight: normal;
 		letter-spacing: 1px;
+		line-height: 1.3em;
 		font-size: 1.3em;
 		text-align: justify;
 		padding: 0em 7em 0em 4.5em;
@@ -98,7 +95,7 @@
 
   /*Anfasser für die Punktetabellen (h4,h5,h6)*/
 
-  h4{
+	h4{
 		text-align:center;
 		font-size: 1.5em;
 	}
@@ -113,28 +110,65 @@
 		font-weight: normal;
 		font-size:1em;
 	}
-
-	background_alpha {
-		background: url(bilder/background_text_repeatXY.png);	
+	
+	
+	#wrapper {
+	background-color: lightblue;
+	width: 80em;
+	height: 25em;
 	}
 	
+	
+	#eins {
+	font-size:1em;
+	text-align: center;
+	margin: 0em;
+	padding: 0em 0em 0em 1em;
+	height: 5em;
+	background-color: yellow;
+	width: 16em;
+	float: left;
+	}
+
+	#zwei {
+	font-size:1em;
+	margin: 0em ;
+	padding: 0em 0em 0em 1em;
+	height: 5em;
+	background-color: green;
+	margin-left: 17em;
+	}
+	
+	
+	
+	
 	#dragako {	
+		border-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
 	
 	#emerald {
+		border-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #0c481e; color: rgba(242,242,242,0.5)
 	}
 	
 	#opal {
+		border-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #ae5013; color: rgba(242,242,242,0.5);
 	}
 		
 	#pearl {
+		border-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #cabc8f; color: rgba(42,42,42,0.7);
 	}
 	
 	#ruby {
+		border-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
 	
@@ -146,12 +180,15 @@
 	
 	#Table_punktetabelle_indivuell {
 		font-size:1em;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
+		
 	}
 	
 	#Table_punktetabelle_gemein{
+		background: url(bilder/background_text_repeatXY.png);
 		font-size:1em;
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
@@ -168,25 +205,35 @@
 		color: white;
 	}
 	
+	/*Style für die Login Seite (Nachfragen ob der Login nicht auch auf der Startseite ausreichen würde*/
+	
 	#login{
-		background-color:purple;
+		background: url(bilder/background_text_repeatXY.png);
+		background-color:#b2bfd6;
+		color: rgba(42,42,42,0.7);
 		font-size:1em;
 		padding:1.2em 0 0 0;
+		border-radius:20px;
+		
 	}	
 	
 	form{
 		width: 20em;
 		margin-top: 2em;
+		margin-left:2em;
 	}
 
 	input {
-		margin: 0 0 1.5em .5em;
+		margin: 0 0 1.5em 0em;
+		
 	}
 
 	label {
 		float: left;
-		text-align: right;
+		text-align: left;
 		width: 10em;
+
 	}
+	
 
   </style>
