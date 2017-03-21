@@ -12,19 +12,53 @@
 		padding: 0;
 	}
 	
-	.twitterbird {
+	#back{
+		background-color:black rgba(0,0,0,1);
+	}
+	
+	.twitterbird_dra{
 		margin-bottom: 10px;
 		width: 60px;
 		height:60px;
 		display:block;
-		background:transparent url("bilder/dragako.png") center top no-repeat;
+		background:url("bilder/dragako.png") center top no-repeat rgba(0,0,0,1);
 		background-size: 60px 60px;
 	}
-
-	.twitterbird:hover {
-		background-image: url("bilder/dragako.png");
+	
+	.twitterbird_point{
+		margin-bottom: 10px;
+		width: 60px;
+		height:60px;
+		display:block;
+		background:url("bilder/punkte.png") center top no-repeat rgba(0,0,0,1) ;
 		background-size: 60px 60px;
 	}
+	
+	.twitterbird_login{
+		margin-bottom: 10px;
+		width: 60px;
+		height:60px;
+		display:block;
+		background:url("bilder/punkte_alpha.png") center top no-repeat rgba(0,0,0,1);
+		background-size: 60px 60px;
+	}
+	
+	#ul li a{
+		padding-right:5em;
+	}
+	
+	#ul li a:hover{
+		background-color: grey;
+	} 
+	
+	#ul{
+		border-radius:20px;
+	}	
+	
+	#ul li{
+		list-style:none;
+		float:left;
+	}	
 	
 	/* # steht für ID-Bereich */
 
