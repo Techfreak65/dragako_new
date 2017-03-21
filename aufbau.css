@@ -1,14 +1,13 @@
-﻿<style>		
-	html, body {
+﻿	html, body {
 		padding: 0;
 		margin: 0;
 	}
 	
 	body {
+		background:url(bilder/Hintergrund_schraeg_2_2.png);
 		font: 80% Arial, Helvetica, sans-serif;
 		line-height: 1.5;
 		color: black;
-		background:url(bilder/Hintergrund_schraeg_2_2.png);
 		margin: 0em 5em 0 5em;
 		padding: 0;
 	}
@@ -22,8 +21,6 @@
 		border:20px;
 	} 
 
-	
-	
 	/* # steht für ID-Bereich */
 
 	#kopfbereich {
@@ -97,6 +94,26 @@
 		font-size:1em;
 	}
 	
+	.TestEins {
+			background-color: yellow;
+	}
+	
+	.TestEins headline {
+		background-color: grey;
+		text-align: left;
+		font-size: 2em;
+		padding: 0em 0em 0em 3.25em;
+	}
+	
+	.TestEins text {
+		background-color: lightblue;
+		font-weight: normal;
+		letter-spacing: 1px;
+		line-height: 1.3em;
+		font-size: 1.3em;
+		text-align: justify;
+		padding: 0em 7em 0em 4.5em;
+	}
 	
 	#wrapper {
 	background-color: lightblue;
@@ -125,14 +142,37 @@
 	margin-left: 17em;
 	}
 	
+	.bild_textbox {
+		margin: 0em;
+		padding: 0em;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
+	}
+	
+	.bild_textbox dragako {
+		background: url(bilder/dragako.png);
+		color: rgba(42,42,42,0.7);
+		background-color: #b2bfd6;
+	}
+	
+	.textbox {
+		margin: 0em;
+		padding: 0em;
+		border-radius:20px;
+		background: url(bilder/background_text_repeatXY.png);
+	}
+	
+	.textbox dragako {
+		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
+	}
 	
 	
-	
-	#dragako {	
+	/* #dragako {	
 		border-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
-	}
+	} */
 	
 	#emerald {
 		border-radius:20px;
@@ -208,5 +248,3 @@
 		text-align: right;
 		width: 10em;
 	}
-
-  </style>
