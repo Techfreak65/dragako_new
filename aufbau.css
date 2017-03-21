@@ -166,12 +166,15 @@
 	
 	#Table_punktetabelle_indivuell {
 		font-size:1em;
+		background: url(bilder/background_text_repeatXY.png);
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
+		
 	}
 	
 	#Table_punktetabelle_gemein{
+		background: url(bilder/background_text_repeatXY.png);
 		font-size:1em;
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
@@ -188,25 +191,35 @@
 		color: white;
 	}
 	
+	/*Style für die Login Seite (Nachfragen ob der Login nicht auch auf der Startseite ausreichen würde*/
+	
 	#login{
-		background-color:purple;
+		background: url(bilder/background_text_repeatXY.png);
+		background-color:#b2bfd6;
+		color: rgba(42,42,42,0.7);
 		font-size:1em;
 		padding:1.2em 0 0 0;
+		border-radius:20px;
+		
 	}	
 	
 	form{
 		width: 20em;
 		margin-top: 2em;
+		margin-left:2em;
 	}
 
 	input {
-		margin: 0 0 1.5em .5em;
+		margin: 0 0 1.5em 0em;
+		
 	}
 
 	label {
 		float: left;
-		text-align: right;
+		text-align: left;
 		width: 10em;
+
 	}
+	
 
   </style>
