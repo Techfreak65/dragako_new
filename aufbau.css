@@ -22,10 +22,21 @@
 		background-size: 60px 60px;
 	}
 
-	.twitterbird:hover {
+	/* .twitterbird:hover {
 		background-image: url("bilder/dragako.png");
 		background-size: 60px 60px;
+	} */
+	
+	a{
+		padding-right:5em;
 	}
+	
+	 a:hover{
+		background-color: grey;
+		border-radius:20px;
+	} 
+
+	
 	
 	/* # steht für ID-Bereich */
 
