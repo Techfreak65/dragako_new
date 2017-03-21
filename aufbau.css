@@ -13,6 +13,20 @@
 		padding: 0;
 	}
 	
+	.twitterbird {
+		margin-bottom: 10px;
+		width: 80px;
+		height:60px;
+		display:block;
+		background:transparent url("bilder/dragako.png") center top no-repeat;
+		background-size: 80px 60px;
+	}
+
+	.twitterbird:hover {
+		background-image: url("bilder/dragako.png");
+		background-size: 80px 60px;
+	}
+	
 	a{
 		padding-right:10em;
 	}
