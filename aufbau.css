@@ -12,11 +12,11 @@
 		padding: 0;
 	}
 	
-	@media only screen and (min-width: 50em) {
+	 @media only screen and (min-width: 50em) {
 		body {
 			width: 80%;
 		}
-	}
+	} 
 	
 	
 
@@ -119,8 +119,6 @@
 		}
 	}
 	
-	
-	
 	table {
 		/* border-bottom-left-radius: 2em; */
 		border: "5";
@@ -210,23 +208,29 @@
 	}
 	
 	
+	
 	@media only screen and (min-width: 50em) {
 		section {
 			width: 80%;
 		}
 	}	
 
-	@media only screen and (min-width: 80em) {
-		section {
-			width: 20%; float: left;
-			margin-right: 1em;
+	@media only screen and (min-width: 80em) {		
+		.dragako {
+			width: 80%;
 			margin: 1em auto;
+			break-after: right;
 		}
+		
+		.emerald{width: 40%; float: left;}
+		.opal 	{width: 40%; float: left; margin: 1em; break-after: right; }
+		.pearl 	{width: 40%; float: left; margin: 1em;}
+		.ruby 	{width: 40%; float: left; /* height:80em; */}	
 	}
 
 	
 	
-
+	
 	.dragako {	
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
