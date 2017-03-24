@@ -76,8 +76,7 @@
 		padding-left:900px;
 	}
 	
-	
-		 /* Dropdown Button */
+	/* Dropdown Button */
 	.dropbtn {
 		background-color: grey;
 		border: none;
@@ -90,7 +89,6 @@
 		background-color: grey;
 	}
 	.dropbtn-content{
-		
 	}
 	
 	.dropbtn-content:hover{
@@ -245,7 +243,9 @@
 			width: 80%;
 		}
 	}	
-
+	
+	
+	
 	@media only screen and (min-width: 80em) {		
 		.dragako {
 			width: 80%;
@@ -253,14 +253,13 @@
 			break-after: right;
 		}
 		
-		.emerald{width: 40%; float: left;}
-		.opal 	{width: 40%; float: left; margin: 1em; break-after: right; }
-		.pearl 	{width: 40%; float: left; margin: 1em;}
-		.ruby 	{width: 40%; float: left; /* height:80em; */}	
+		.emerald	{width: 40%; float: left; margin-left: 5em;}
+		#distance 	{width: 3em; float: left; margin: 1em auto; background-color: green;}
+		.opal 		{width: 40%; float: left; break-after: left; }
+		.pearl 		{width: 40%; float: left; margin-right: 1em; height: $(".ruby").height();}
+		.ruby 		{width: 40%; float: left; /* height:80em; */}	
 	}
 
-	
-	
 	
 	.dragako {	
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
