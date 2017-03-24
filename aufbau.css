@@ -14,23 +14,18 @@
 	}
 
   #steuerung  {
-        margin: 0;
-        padding: 0;
         list-style-type: none;
 		background-color:grey;
-		border-radius:20px;
-		
+		border-radius:20px;	
     }
-
-    #steuerung li {
-        padding: 0 0 0 4em;
-        margin: 0;
+	
+	#steuerung li {
+		padding: 0em 4em 0em 4em;
 		display: inline;
 		color: black;
     }
 
     #steuerung li a:link {
-        padding: 1em 2em 1em 2em;
         font-size: 1em;
         color: black;
         text-decoration: none;
@@ -43,7 +38,6 @@
 	
 	#steuerung .dropbtn {
 		padding: 0;
-		margin:0;
 	}
 	
 	/* Thomas: bei mobil anderes paddng */
@@ -67,13 +61,12 @@
 	#steuerung li .dropdown button{
 		font: 1em Arial, Helvetica, sans-serif;
 		line-height: 1.5;
-		font-weight:bold;
-		padding-left:900px;
+		font-weight: bold;
 	}
 	
 	/* Dropdown Button */
 	.dropbtn {
-		background-color: grey;
+		background-color: rgba(0, 0, 0, 0);
 		border: none;
 		cursor: pointer;
 	}
@@ -81,7 +74,6 @@
 	/* Dropdown button on hover & focus */
 	.dropbtn:hover, .dropbtn:focus {
 		color: white;
-		background-color: grey;
 	}
 	.dropbtn-content{
 	}
@@ -349,5 +341,3 @@
 		text-align: left;
 		width: 10em;
 	}
-
-  </style>
