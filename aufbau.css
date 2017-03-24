@@ -93,9 +93,8 @@
 	}
   
 	h1 {
-		text-align: left;
+		text-align: center;
 		font-size: 2em;
-		padding: 0em 0em 0em 3.25em;
 	}
 	
 	h3 {
@@ -104,7 +103,7 @@
 		line-height: 1.3em;
 		font-size: 1.3em;
 		text-align: justify;
-		padding: 0em 7em 0em 4.5em;
+		padding: 0em 4em 3em 4em;
 	}	
 
   /*Anfasser für die Punktetabellen (h4,h5,h6)*/
@@ -156,11 +155,12 @@
 	section {
 		border-radius:20px;
 		margin: 0em;
-		padding: 0em;
+		padding: 2em 0em 0em 0em;
 		border-top-left-radius:20px;
 		border-top-right-radius:20px;
 		background: url(bilder/background_text_repeatXY.png);
 		color: rgba(42,42,42,0.7);
+		text-align: center;
 	}
 
 	.dragako {	
@@ -183,7 +183,6 @@
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
 	
-	
 	#links {
 		text-align:right;
 		background-color:#ceb98e;
@@ -196,7 +195,6 @@
 		background-color: #b2bfd6; 
 		color: rgba(42,42,42,0.7);
 		padding:1.2em 0 0 0;
-		
 	}
 	
 	#Table_punktetabelle_gemein{
@@ -226,7 +224,6 @@
 		font-size:1em;
 		padding:1.2em 0 0 0;
 		border-radius:20px;
-		
 	}	
 	
 	form{
