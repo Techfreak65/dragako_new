@@ -92,7 +92,7 @@
 	#steuerung .dropbtn {
 		padding: 0;
 		margin:0;
-		float:right;
+		
 	}
 	
 	
@@ -111,7 +111,7 @@
 		
 	}
 	.dropbtn-content{
-		font-size:1em;
+		font-size: 1em;
 		font: 80% Arial, Helvetica, sans-serif;
 		font-weight: bold;
 	}
