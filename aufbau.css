@@ -207,7 +207,7 @@
 	section {
 		width: 100%;
 		border-radius:20px;
-		margin: 1em auto;
+		margin: 0em auto;
 		padding: 1em 0em 0em 0em;
 		border-top-left-radius:20px;
 		border-top-right-radius:20px;
@@ -216,6 +216,9 @@
 		text-align: center;
 	}
 	
+	
+	/* RESPONSIVE DESIGN: */
+	/* ------------------ */
 	
 	/* ~20em bis ~40em --> Smartphones & Tablets in Hochformat */
 	@media only screen and (min-width: 30em) {
@@ -238,44 +241,56 @@
 		}
 		
 		.dragako {
-			margin: 0 auto;
-			break-after: right;	
+			break-after: right;
 		}
+		
 		.dragako img{
 			width: 20%;
 			height: auto;
 		}
-		.emerald	{width: 48%; float: left; margin-right: 2em; }
-		.opal 		{width: 48%; float: right; break-after: left; }
-		.pearl 		{width: 48%; float: left; margin-right: 2em; height: $(".ruby").height();}
-		.ruby 		{width: 48%; float: right; /* height:80em; */}	
+		
+		.row {
+			display: flex; /* gleiche Hoehe aller Kinder */
+		}
+		
+		.emerald	{width: 49.2%; float: left;  margin-left:0; }
+		.opal 		{width: 49.2%; float: right; margin-right: 0; }
+		.pearl 		{width: 49.2%; float: left;  margin-left:0; }
+		.ruby 		{width: 49.2%; float: right; margin-right: 0; }	
 	}
 	
-
-	
+		
 	
 	
 	/* ~60em bis ~80em --> klassische Browseransicht */
 	
 	
-	
-	
-	
 
+	
 	/* größere Bildschirme */
-	@media only screen and (min-width: 120em) {			
+	@media only screen and (min-width: 110em) {			
+		body {
+			margin: 0em 10em 0em 10em;
+		}
+		
 		.section{
 			width: 25%;
-			display: inline-block;
+			margin:0;			
 		}	
-		.dragako { width: 25%;		float: left; margin-right: 5em; }
-		.emerald	{ width: 13%; 	float: left; margin-right: 5em; }
-		/* #distance 	{width: 6em; float: left; margin: 1em auto; background-color: green;} */
-		.opal 		{ width: 13%;	float: left; margin-right: 5em;}
-		.pearl 		{ width: 13%;	float: left; margin-right: 5em;}
-		.ruby 		{ width: 13%;	float: left; margin-right: 5em;}		
+		
+		.col {
+			display: flex;  /* gleiche Breite aller Kinder  */
+		}
+			
+		.dragako 	{ width: 75%; float: left;}
+		.emerald	{ width: 48%; float: left; margin: 0 auto;} 
+		.opal 		{ width: 48%; float: left; margin: 0 auto;}
+		.pearl 		{ width: 48%; float: left; margin: 0 auto;}
+		.ruby 		{ width: 48%; float: left; margin-right: 0;}		
 	}
-
+	/* ----------------------- */
+	/* RESPONSIVE DESIGN ENDE: */
+	
 	.dragako {	
 		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
 	}
