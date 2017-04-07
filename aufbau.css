@@ -13,8 +13,6 @@
 		min-width: 20em;
 	}
 
-	/* Blubb */
-
 	/* #steuerung  {
 
         list-style-type: none;
@@ -152,7 +150,6 @@ li a:hover, .dropdown:hover .dropbtn {
 	
 	
 	
-	
 
 	/* # steht für ID-Bereich */
 
@@ -179,7 +176,7 @@ li a:hover, .dropdown:hover .dropbtn {
 		padding: 0em;
 		width:100%;
 	}
-  
+	
 	h1 {
 		text-align: center;
 		font-size: 2em;
@@ -202,7 +199,8 @@ li a:hover, .dropdown:hover .dropbtn {
 	}
 
 	h5 {
-		text-align: center;
+		text-align: left;
+		padding-left: 3.5em;
 		font-size: 1em;
 		font-weight: normal;
 	}
@@ -211,34 +209,6 @@ li a:hover, .dropdown:hover .dropbtn {
 		font-weight: normal;
 		font-size:1em;
 	}
-
-	
-	/*#wrapper {
-	background-color: lightblue;
-	width: 80em;
-	height: 25em;
-	}
-	
-	
-	#eins {
-	font-size:1em;
-	text-align: center;
-	margin: 0em;
-	padding: 0em 0em 0em 1em;
-	height: 5em;
-	background-color: yellow;
-	width: 16em;
-	float: left;
-	}
-
-	#zwei {
-	font-size:1em;
-	margin: 0em ;
-	padding: 0em 0em 0em 1em;
-	height: 5em;
-	background-color: green;
-	margin-left: 17em;
-	} */
 	
 	section {
 		width: 100%;
@@ -257,7 +227,8 @@ li a:hover, .dropdown:hover .dropbtn {
 	/* ------------------ */
 	
 	/* ~20em bis ~40em --> Smartphones & Tablets in Hochformat */
-	@media only screen and (min-width: 30em) {
+	@media only screen and (min-width: 30.25em) /*30.25  statt 30.00, da so "Login-Button" nicht in zweite Zeile umbricht */
+	{
 		body {
 			margin: 0em 3em 0em 3em;
 		}
