@@ -169,12 +169,23 @@ li a:hover, .dropdown:hover .dropbtn {
 	
 	table {
 		/* border-bottom-left-radius: 2em; */
-		border: "5";
 		border-radius:20px;
+		border-collapse: collapse;
 		text-align:justify;
 		margin: 0em;
-		padding: 0em;
 		width:100%;
+		font-size:1em;
+		background: url(bilder/background_text_repeatXY.png);
+		background-color: #b2bfd6; 
+		color: rgba(42,42,42,0.7);
+		padding:1.2em 0 0 0;
+	}
+	
+	tr, th {
+		border-bottom: 0.25em dotted;
+		border-left: 0.25em dotted;
+		border-radius:20px;
+		
 	}
 	
 	h1 {
@@ -189,35 +200,41 @@ li a:hover, .dropdown:hover .dropbtn {
 		font-size: 1.3em;
 		text-align: justify;
 		padding: 0em 1.5em 3em 1.5em;
-	}	
+	}
+
+	table tbody tr th h1
 
 	
   /*Anfasser für die Punktetabellen (h4,h5,h6)*/
-	h4{
+	table tbody tr th h1{
+		
+	}
+	table tbody tr th h1{
+		
+	}
+	table tbody tr th h1{
+		
+	}
+	table thead tr th h4{
 		text-align:center;
 		font-size: 1.5em;
 		line-height: 0.3;
 	}
 
-	h5 {
-		text-align: left;
-		padding-left: 3.5em;
+	table thead tr th h5{
+		text-align: center;
 		font-size: 1em;
 		font-weight: normal;
-		
-		
-		
 	}
 
-	h6 {
+	table thead tr th h6{
+		
 		font-weight: normal;
 		font-size:1em;
 		margin: 0.5em 0em 0.5em 0em;
 		padding: 0;
-		
-	
+		padding-left: 3.5em;
 	}
-	
 	section {
 		width: 100%;
 		border-radius:20px;
@@ -334,22 +351,6 @@ li a:hover, .dropdown:hover .dropbtn {
 		text-align:right;
 		background-color:#ceb98e;
 		padding: 0 1em 0 1em;	
-	}
-	
-	#Table_punktetabelle_indivuell {
-		font-size:1em;
-		background: url(bilder/background_text_repeatXY.png);
-		background-color: #b2bfd6; 
-		color: rgba(42,42,42,0.7);
-		padding:1.2em 0 0 0;
-	}
-	
-	#Table_punktetabelle_gemein{
-		background: url(bilder/background_text_repeatXY.png);
-		font-size:1em;
-		background-color: #b2bfd6; 
-		color: rgba(42,42,42,0.7);
-		padding:1.2em 0 0 0;
 	}
   
 	#Überschrift01{
