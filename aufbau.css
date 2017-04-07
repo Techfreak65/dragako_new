@@ -14,6 +14,7 @@
 	}
 
 	/* #steuerung  {
+
         list-style-type: none;
 		background-color:grey;
 		border-radius:20px;	
@@ -112,8 +113,8 @@
     background-color: lightgrey;
 }
 
-li { float: left; }
-re { float: right; }
+	li { float: left; }
+	re { float: right; }
 
 /* Menueleiste */
 li a, .dropbtn {
@@ -134,7 +135,7 @@ li a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
     display: none;
     position: absolute; /* position: relative; */
-	right: 0.5em; /* Positionierung der Dropdown-Box */
+	right: 1em; /* Positionierung der Dropdown-Box */
 	border-radius: 1em;
 	padding: 1em 0em 1em 2em;
     background-color: lightgrey;
@@ -146,7 +147,6 @@ li a:hover, .dropdown:hover .dropbtn {
  .dropdown:hover .dropdown-content {
     display: block;
 }
-	
 	
 	
 	
@@ -176,7 +176,7 @@ li a:hover, .dropdown:hover .dropbtn {
 		padding: 0em;
 		width:100%;
 	}
-  
+	
 	h1 {
 		text-align: center;
 		font-size: 2em;
@@ -196,46 +196,27 @@ li a:hover, .dropdown:hover .dropbtn {
 	h4{
 		text-align:center;
 		font-size: 1.5em;
+		line-height: 0.3;
 	}
 
 	h5 {
-		text-align: center;
+		text-align: left;
+		padding-left: 3.5em;
 		font-size: 1em;
 		font-weight: normal;
+		
+		
+		
 	}
 
 	h6 {
 		font-weight: normal;
 		font-size:1em;
-	}
-
+		margin: 0.5em 0em 0.5em 0em;
+		padding: 0;
+		
 	
-	/*#wrapper {
-	background-color: lightblue;
-	width: 80em;
-	height: 25em;
 	}
-	
-	
-	#eins {
-	font-size:1em;
-	text-align: center;
-	margin: 0em;
-	padding: 0em 0em 0em 1em;
-	height: 5em;
-	background-color: yellow;
-	width: 16em;
-	float: left;
-	}
-
-	#zwei {
-	font-size:1em;
-	margin: 0em ;
-	padding: 0em 0em 0em 1em;
-	height: 5em;
-	background-color: green;
-	margin-left: 17em;
-	} */
 	
 	section {
 		width: 100%;
@@ -254,12 +235,16 @@ li a:hover, .dropdown:hover .dropbtn {
 	/* ------------------ */
 	
 	/* ~20em bis ~40em --> Smartphones & Tablets in Hochformat */
-	@media only screen and (min-width: 30em) {
+	@media only screen and (min-width: 30.25em) /*30.25  statt 30.00, da so "Login-Button" nicht in zweite Zeile umbricht */
+	{
 		body {
 			margin: 0em 3em 0em 3em;
 		}
 		h3 {
 			padding: 0em 2em 2em 2em;
+		}
+		.dropdown-content {
+			right: 3em;
 		}
 	}
 	
@@ -272,14 +257,11 @@ li a:hover, .dropdown:hover .dropbtn {
 		h3 {
 			padding: 0em 2.5em 2.5em 2.5em;
 		}
-		
+		.dropdown-content {
+			right: 5em;
+		}
 		.dragako {
 			break-after: right;
-		}
-		
-		.dragako img{
-			width: 20%;
-			height: auto;
 		}
 		
 		.row {
@@ -298,14 +280,16 @@ li a:hover, .dropdown:hover .dropbtn {
 	/* ~60em bis ~80em --> klassische Browseransicht */
 	
 	
-
+	
 	
 	/* größere Bildschirme */
 	@media only screen and (min-width: 110em) {			
 		body {
 			margin: 0em 10em 0em 10em;
 		}
-		
+		.dropdown-content {
+			right: 10em;
+		}
 		.section{
 			width: 25%;
 			margin:0;			
