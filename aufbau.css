@@ -1,4 +1,4 @@
-﻿	html, body {
+﻿	html {
 		padding: 0;
 		margin: 0 auto;
 	}
@@ -9,150 +9,9 @@
 		line-height: 1.5;
 		color: black;
 		margin: 0em 1em 0 1em;
-		padding: 0;
 		min-width: 20em;
 	}
-
-	/* #steuerung  {
-
-        list-style-type: none;
-		background-color:grey;
-		border-radius:20px;	
-    }
 	
-	#steuerung li {
-		padding: 0em 4em 0em 4em;
-		display: inline;
-		color: black;
-    }
-
-    #steuerung li a:link {
-        font-size: 1em;
-        color: black;
-        text-decoration: none;
-		font-weight:bold;
-    }
-	
-    #steuerung li a:hover {
-        color: white;
-    }
-	
-	#steuerung .dropbtn {
-		padding: 0;
-	}
-	
-	
-	#steuerung li .dropdown button{
-		font: 1em Arial, Helvetica, sans-serif;
-		line-height: 1.5;
-		font-weight:bold;
-	} */
-	/* .close{
-		float:right;
-	} */
-	
-	/* Dropdown Button */
-	/* .dropbtn {
-		background-color: rgba(0, 0, 0, 0);
-		border: none;
-		cursor: pointer;
-	} */
-
-	/* Dropdown button on hover & focus */
-	/* .dropbtn:hover, .dropbtn:focus {
-		color: white;
-	}
-	.dropbtn-content{
-	}
-	
-	.dropbtn-content:hover{
-		color:white;
-	} */
-
-	/* The container <div> - needed to position the dropdown content */
-	/* .dropdown {
-		position: relative;
-		display: inline-block;
-	} */
-
-	/* Dropdown Content (Hidden by Default) */
-	/* .dropdown-content {
-		display: none;
-		position: absolute;
-		background-color: grey;
-	} */
-
-	/* Links inside the dropdown */
-	/* .dropdown-content a {
-		padding: 12px 16px;
-		text-decoration: none;
-		display: block;
-	} */
-
-	/* Change color of dropdown links on hover */
-	/* .dropdown-content a:hover {
-		color: white;
-		background-color: #424242; 
-	} */
-		
-
-	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-	/* .show {
-		display:block;
-	} */
-	
-	
-	/* neues menü von Thomas */
-	
-	ul {
-    list-style-type: none;
-    margin: 0;
-	padding: 0;
-    border-radius: 1em;
-	overflow: hidden;
-    background-color: lightgrey;
-}
-
-	li { float: left; }
-	re { float: right; }
-
-/* Menueleiste */
-li a, .dropbtn {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 0.25em 3.5em; /* Hoehe und Breite der Menueleiste */
-    text-decoration: none; /* Links sind nicht unterstrichen */
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    border-radius: 1em;
-	background-color: grey;
-	color: white;
-}
-
-/* Dropdown-Fenster */
-.dropdown-content {
-    display: none;
-    position: absolute; /* position: relative; */
-	right: 1em; /* Positionierung der Dropdown-Box */
-	border-radius: 1em;
-	padding: 1em 0em 1em 2em;
-    background-color: lightgrey;
-    min-width: 15em;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.35);
-    z-index: 1;
-}
- 
- .dropdown:hover .dropdown-content {
-    display: block;
-}
-	
-	
-	
-
-	/* # steht für ID-Bereich */
-
 	#kopfbereich {
 		background:url(bilder/Dragon_small.png) repeat-x;
 		height:150px;	
@@ -167,16 +26,6 @@ li a:hover, .dropdown:hover .dropbtn {
 		padding: 0em 0.5em;
 	}
 	
-	table {
-		/* border-bottom-left-radius: 2em; */
-		border: "5";
-		border-radius:20px;
-		text-align:justify;
-		margin: 0em;
-		padding: 0em;
-		width:100%;
-	}
-	
 	h1 {
 		text-align: center;
 		font-size: 2em;
@@ -189,34 +38,98 @@ li a:hover, .dropdown:hover .dropbtn {
 		font-size: 1.3em;
 		text-align: justify;
 		padding: 0em 1.5em 3em 1.5em;
-	}	
-
+	}
 	
-  /*Anfasser für die Punktetabellen (h4,h5,h6)*/
-	h4{
-		text-align:center;
-		font-size: 1.5em;
-		line-height: 0.3;
+	/* Menü-Zeile */
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		border-radius: 1em;
+		overflow: hidden;
+		background-color: lightgrey;
 	}
 
-	h5 {
+	li { float: left; }
+	#re { float: right; }
+
+	/* Menueleiste */
+	li a, .dropbtn {
+		display: inline-block;
+		color: black;
+		text-align: center;
+		padding: 0.25em 3.5em; /* Hoehe und Breite der Menueleiste */
+		text-decoration: none; /* Links sind nicht unterstrichen */
+	}
+
+	li a:hover, .dropdown:hover .dropbtn {
+		border-radius: 1em;
+		background-color: grey;
+		color: white;
+	}
+
+	/* Dropdown-Fenster */
+	.dropdown-content {
+		display: none;
+		position: absolute; /* position: relative; */
+		right: 1em; /* Positionierung der Dropdown-Box */
+		border-radius: 1em;
+		padding: 1em 0em 1em 2em;
+		background-color: lightgrey;
+		min-width: 15em;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.35);
+		z-index: 1;
+	}
+	
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	
+	/*Style Table*/
+	
+	table {
+		/* border-bottom-left-radius: 2em; */
+		border-radius:20px;
+		text-align:justify;
+		margin: 0em;
+		width:100%;
+		font-size:1em;
+		background: url(bilder/background_text_repeatXY.png);
+		background-color: #b2bfd6; 
+		color: rgba(42,42,42,0.7);
+		padding:1.2em 0 0 0;
+	}
+	
+	table td{
+		border-top:0.25em dotted;
+	}
+	
+	table tr th{
+		text-align:center;
+		font-size: 2em;
+	}
+
+	table tr td h5 {
 		text-align: left;
 		padding-left: 3.5em;
-		font-size: 1em;
-		font-weight: normal;
-		
-		
-		
+		font-size: 1.3em;
+		font-weight: normal;	
 	}
-
-	h6 {
-		font-weight: normal;
-		font-size:1em;
-		margin: 0.5em 0em 0.5em 0em;
-		padding: 0;
-		
 	
+	table tr td h6 {
+		text-align: center;
+		font-size: 1.3em;
+		font-weight: normal;	
 	}
+	
+	table caption{
+		font-size:3em;
+		color: white;
+		text-align: left;
+	}
+	
+	/* Style-Ende Table */
 	
 	section {
 		width: 100%;
@@ -231,6 +144,7 @@ li a:hover, .dropdown:hover .dropbtn {
 	}
 	
 	
+	/* ------------------ */
 	/* RESPONSIVE DESIGN: */
 	/* ------------------ */
 	
@@ -240,9 +154,11 @@ li a:hover, .dropdown:hover .dropbtn {
 		body {
 			margin: 0em 3em 0em 3em;
 		}
+		
 		h3 {
 			padding: 0em 2em 2em 2em;
 		}
+		
 		.dropdown-content {
 			right: 3em;
 		}
@@ -254,12 +170,15 @@ li a:hover, .dropdown:hover .dropbtn {
 		body {
 			margin: 0em 5em 0em 5em;
 		}
+		
 		h3 {
 			padding: 0em 2.5em 2.5em 2.5em;
 		}
+		
 		.dropdown-content {
 			right: 5em;
 		}
+		
 		.dragako {
 			break-after: right;
 		}
@@ -274,10 +193,10 @@ li a:hover, .dropdown:hover .dropbtn {
 		.ruby 		{width: 49.2%; float: right; margin-right: 0; }	
 	}
 	
-		
-	
 	
 	/* ~60em bis ~80em --> klassische Browseransicht */
+	
+	
 	
 	
 	
@@ -290,6 +209,7 @@ li a:hover, .dropdown:hover .dropbtn {
 		.dropdown-content {
 			right: 10em;
 		}
+		
 		.section{
 			width: 25%;
 			margin:0;			
@@ -327,42 +247,8 @@ li a:hover, .dropdown:hover .dropbtn {
 	.ruby {
 		background-color: #760d10; color: rgba(242,242,242,0.7)
 	}
-	
-	
-	
-	#links {
-		text-align:right;
-		background-color:#ceb98e;
-		padding: 0 1em 0 1em;	
-	}
-	
-	#Table_punktetabelle_indivuell {
-		font-size:1em;
-		background: url(bilder/background_text_repeatXY.png);
-		background-color: #b2bfd6; 
-		color: rgba(42,42,42,0.7);
-		padding:1.2em 0 0 0;
-	}
-	
-	#Table_punktetabelle_gemein{
-		background: url(bilder/background_text_repeatXY.png);
-		font-size:1em;
-		background-color: #b2bfd6; 
-		color: rgba(42,42,42,0.7);
-		padding:1.2em 0 0 0;
-	}
-  
-	#Überschrift01{
-		font-size:3em;
-		color: white;
-	}
-  
-	#Überschrift02{
-		font-size:3em;
-		color: white;
-	}
-	
-	/*Style für die Login Seite (Nachfragen ob der Login nicht auch auf der Startseite ausreichen würde*/
+
+	/*Style für die Login Seite*/
 	
 	#login{
 		background: url(bilder/background_text_repeatXY.png);
@@ -372,7 +258,7 @@ li a:hover, .dropdown:hover .dropbtn {
 		padding:1.2em 0 0 0;
 		border-radius:20px;
 	}	
-	
+
 	form{
 		width: 20em;
 		margin-top: 2em;
@@ -389,3 +275,5 @@ li a:hover, .dropdown:hover .dropbtn {
 		text-align: left;
 		width: 10em;
 	}
+	
+	/* Ende-Style für die Login Seite*/
