@@ -14,8 +14,9 @@
 	
 	#kopfbereich {
 		background:url(bilder/Dragon_small.png) repeat-x;
-		height:150px;	
+		height:150px;	/* Höehe des Kopfbereiches */
 		border-radius:10px;
+		margin-bottom: 0.75em; /* Abstand unter Kopfbereich */
 	}
 				 
 	#kopfbereich p {
@@ -44,7 +45,7 @@
 	
 	ul {
 		list-style-type: none;
-		margin: 0;
+		margin: 0em 0em 0.75em 0em; /* Abstand unter Menüleiste */
 		padding: 0;
 		border-radius: 1em;
 		overflow: hidden;
@@ -143,6 +144,27 @@
 	}
 	
 	
+	.dragako {	
+		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
+	}
+	
+	.emerald {
+		background-color: #0c481e; color: rgba(242,242,242,0.5)
+	}
+	
+	.opal {
+		background-color: #ae5013; color: rgba(242,242,242,0.5);
+	}
+		
+	.pearl {
+		background-color: #cabc8f; color: rgba(42,42,42,0.7);
+	}
+	
+	.ruby {
+		background-color: #760d10; color: rgba(242,242,242,0.7)
+	}
+	
+	
 	/* ------------------ */
 	/* RESPONSIVE DESIGN: */
 	/* ------------------ */
@@ -178,7 +200,7 @@
 	}
 	
 	
-	/* ~40em bis ~60em --> Tablets in Querformat */
+	/* ~40em bis ~60em --> Tablets in Querformat  2 SPALTEN-LAYOUT*/
 	@media only screen and (min-width: 50em) {					
 		body {
 			margin: 0em 5em 0em 5em;
@@ -200,10 +222,10 @@
 			display: flex; /* gleiche Hoehe aller Kinder */
 		}
 		
-		.emerald	{width: 49.2%; float: left;  margin-left:0; }
-		.opal 		{width: 49.2%; float: right; margin-right: 0; }
-		.pearl 		{width: 49.2%; float: left;  margin-left:0; }
-		.ruby 		{width: 49.2%; float: right; margin-right: 0; }	
+		.emerald	{width: auto; float: left;  margin: 0em 0.75em 0.75em 0em; } /* rechts & unten Abstand */
+		.opal 		{width: auto; float: right; margin: 0em 0em 0.75em 0.75em; } /* links & unten Abtstand */
+		.pearl 		{width: auto; float: left;  margin: 0.75em 0.75em 0em 0em; } /* oben und rechts Abstand */
+		.ruby 		{width: auto; float: right; margin: 0.75em 0em 0em 0.75em; } /* oben und links Abstand */
 	}
 	
 	
@@ -212,9 +234,7 @@
 	
 	
 	
-	
-	
-	/* größere Bildschirme */
+	/* größere Bildschirme - 4 SPALTEN LAYOUT */
 	@media only screen and (min-width: 110em) {			
 		body {
 			margin: 0em 10em 0em 10em;
@@ -232,34 +252,16 @@
 			display: flex;  /* gleiche Breite aller Kinder  */
 		}
 			
-		.dragako 	{ width: 75%; float: left;}
-		.emerald	{ width: 48%; float: left; margin: 0 auto;} 
-		.opal 		{ width: 48%; float: left; margin: 0 auto;}
-		.pearl 		{ width: 48%; float: left; margin: 0 auto;}
-		.ruby 		{ width: 48%; float: left; margin-right: 0;}		
+		.dragako 	{ width: auto; float: left; margin: 0em 1.5em 0em 0em; }
+		.emerald	{ width: auto; float: left; margin: 0em 1.5em 0em 0em; } 
+		.opal 		{ width: auto; float: left; margin: 0em 1.5em 0em 0em; }
+		.pearl 		{ width: auto; float: left; margin: 0em 1.5em 0em 0em; }
+		.ruby 		{ width: auto; float: left; margin: 0em } /* kein Abstand nach rechts, da direkt an Rand */		
 	}
 	/* ----------------------- */
 	/* RESPONSIVE DESIGN ENDE: */
 	
-	.dragako {	
-		background-color: #b2bfd6; color: rgba(42,42,42,0.7);
-	}
 	
-	.emerald {
-		background-color: #0c481e; color: rgba(242,242,242,0.5)
-	}
-	
-	.opal {
-		background-color: #ae5013; color: rgba(242,242,242,0.5);
-	}
-		
-	.pearl {
-		background-color: #cabc8f; color: rgba(42,42,42,0.7);
-	}
-	
-	.ruby {
-		background-color: #760d10; color: rgba(242,242,242,0.7)
-	}
 
 	/*Style für die Login Seite*/
 	
